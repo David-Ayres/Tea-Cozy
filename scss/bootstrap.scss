@@ -1,0 +1,68 @@
+
+// Font
+$font-family-sans-serif: 'Montserrat', sans-serif;
+
+
+// colors
+$primary: indigo;
+$secondary: black;
+$light: #fbf9f5;
+$body-bg: $light;
+
+
+
+// spcers
+$spacer: 1rem !default;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 6,
+  7: $spacer * 8,
+  8: $spacer * 12,
+
+) !default;
+
+
+$headings-margin-bottom: $spacer * 1;
+$line-height-base: 1.7;
+
+// navbar
+
+$navbar-nav-link-padding-x: 0.8rem;
+$navbar-padding-y: 1rem;
+$navbar-dark-color: #fff;
+
+// buttons
+$buttons-radius: 50px; 
+$buttons-padding-x: 30px; 
+$buttons-padding-y: 10px; 
+
+
+
+$btn-border-radius: $buttons-radius;
+$btn-border-radius-sm: $buttons-radius;
+$btn-border-radius-lg: $buttons-radius;
+
+$btn-padding-y: $buttons-padding-y;
+$btn-padding-y-lg: $buttons-padding-y;
+$btn-padding-y-sm: $buttons-padding-y;
+$btn-padding-x: $buttons-padding-x;
+$btn-padding-x-lg: $buttons-padding-x;
+$btn-padding-x-sm: $buttons-padding-x;
+
+
+$navbar-toggler-border-radius: 5px;
+
+$headings-font-weight: bold;
+
+// checkboox
+$form-check-label-color: $secondary;
+
+
+
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
